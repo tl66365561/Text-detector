@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include<string>
+#include<windows.h>
 using namespace std;
 
 
@@ -37,6 +38,26 @@ bool Check(string Path){
 
 int Parse_line(string Path){
 	
+	//可以完善一下，利用进度条的小工具
+
+	    char buff[105]={};
+	    char ret[5]={"/|-\\"};
+	    int i=0;
+        
+		while(i<100)
+		    {
+		      buff[i]='#';
+  		      printf("[%-100s][%d%%][%c]",buff,i,ret[i%4]);
+		       //每flush一下，就将缓冲区的内容刷到屏幕上  
+			  fflush(stdout);    
+			  Sleep(100);
+		
+			  printf("\n");
+			  	  i++;
+		}
+	printf("[%-100s][%d%%][%c]",buff,i,ret[i%4]);
+	cout<<endl;
+
 	size_t count=0;
 	ifstream file(Path.c_str());
 	if(!file.is_open()){

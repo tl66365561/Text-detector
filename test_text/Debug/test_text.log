@@ -1,4 +1,4 @@
-﻿Build started 2019/12/9 16:43:28.
+﻿Build started 2019/12/9 17:08:29.
      1>Project "c:\Users\ADMIN\documents\visual studio 2010\Projects\test_text\test_text\test_text.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\test_text.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -18,4 +18,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.03
+Time Elapsed 00:00:01.33
