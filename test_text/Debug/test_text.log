@@ -1,0 +1,21 @@
+﻿Build started 2019/12/9 16:43:28.
+     1>Project "c:\Users\ADMIN\documents\visual studio 2010\Projects\test_text\test_text\test_text.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\test_text.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\admin\documents\visual studio 2010\Projects\test_text\Debug\test_text.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test_text.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\admin\documents\visual studio 2010\Projects\test_text\Debug\test_text.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\admin\documents\visual studio 2010\Projects\test_text\Debug\test_text.lib" /MACHINE:X86 Debug\test.obj
+         LINK : c:\users\admin\documents\visual studio 2010\Projects\test_text\Debug\test_text.exe not found or not built by the last incremental link; performing full link
+         test_text.vcxproj -> c:\users\admin\documents\visual studio 2010\Projects\test_text\Debug\test_text.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\admin\documents\visual studio 2010\Projects\test_text\Debug\test_text.exe;#1" /manifest Debug\test_text.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\test_text.unsuccessfulbuild".
+         Touching "Debug\test_text.lastbuildstate".
+     1>Done Building Project "c:\Users\ADMIN\documents\visual studio 2010\Projects\test_text\test_text\test_text.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
